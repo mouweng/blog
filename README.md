@@ -1,6 +1,6 @@
 # Mouweng's Blog
 
-## about
+## About
 
 用Hexo & Chic搭建的个人博客平台
 
