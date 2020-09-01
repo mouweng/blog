@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Mouweng's Blog
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.mouweng.website
+url: http://120.27.223.34/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,6 +104,11 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@120.27.223.34:/home/git/blog.git #注意改成自己的服务器ip
+  repo: root@120.27.223.34:/var/repo/Blog.git #注意改成自己的服务器ip
   branch: master
   message:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
